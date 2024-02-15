@@ -67,6 +67,9 @@ form{
     margin-top: -9px;
     letter-spacing: -0.5px;
 }
+.heading{
+    padding-bottom: 20px;
+}
 .heading h2{
     font-size: 2.1rem;
     font-weight: 600;
@@ -157,4 +160,18 @@ label{
 }
 .text a:hover{
     color: blueviolet;
+}
+.main-form.login{
+    display: none;
+}
+.txt{
+    font-size: 0.75rem;
+    color: #bababa;
+}
+.txt a{
+    color: #bababa;
+    transition: 0.4s;
+}
+.txt a:hover{
+    color: #8371fd;
 }
